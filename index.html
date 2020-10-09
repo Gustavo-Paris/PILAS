@@ -38,50 +38,50 @@
         <hr class="my-4">
         <p>Registre aqui todos os pilas que você ganha e todos os pilas que voce gasta, separe em quantas categorias quiser.</p>
       </div>
-
-      <table class="table container">
-        <thead>
-          <tr>
-            <th scope="col"></th>
-            <th scope="col">Categoría</th>
-            <th scope="col">Data/Hora</th>
-            <th scope="col">Descrição</th>
-            <th scope="col">Pilas</th>
-            <th scope="col"></th>
-            <th scope="col"></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">+</th>
-            <td>Salário</td>
-            <td>06/09/2020 16:35:00</td>
-            <td>Folha de Agosto</td>
-            <td>5.416,32</td>
-            <td><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1">Alterar</button></td>
-            <td><button type="button" class="btn btn-danger btn-sm">Excluir</button></td>
-          </tr>
-          <tr>
-            <th scope="row">-</th>
-            <td>Educação</td>
-            <td>10/09/2020 08:45:00</td>
-            <td>Mensalidade de Setembro</td>
-            <td>580,00</td>
-            <td><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal2">Alterar</button></td>
-            <td><button type="button" class="btn btn-danger btn-sm">Excluir</button></td>
-          </tr>
-          <tr>
-            <th scope="row">-</th>
-            <td>Combustível</td>
-            <td>12/09/2020 18:00:00</td>
-            <td>Gasolina Posto Alfa</td>
-            <td>150,00</td>
-            <td><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal3">Alterar</button></td>
-            <td><button type="button" class="btn btn-danger btn-sm">Excluir</button></td>
-          </tr>
-        </tbody>
-      </table>
-
+      <div class="table-responsive-sm">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Data/Hora</th>
+              <th scope="col">Descrição</th>
+              <th scope="col">Pilas</th>
+              <th scope="col"></th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">+</th>
+              <td>Salário</td>
+              <td>06/09/2020 16:35:00</td>
+              <td>Folha de Agosto</td>
+              <td>5.416,32</td>
+              <td><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal1">Alterar</button></td>
+              <td><button type="button" class="btn btn-danger btn-sm">Excluir</button></td>
+            </tr>
+            <tr>
+              <th scope="row">-</th>
+              <td>Educação</td>
+              <td>10/09/2020 08:45:00</td>
+              <td>Mensalidade de Setembro</td>
+              <td>580,00</td>
+              <td><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal2">Alterar</button></td>
+              <td><button type="button" class="btn btn-danger btn-sm">Excluir</button></td>
+            </tr>
+            <tr>
+              <th scope="row">-</th>
+              <td>Combustível</td>
+              <td>12/09/2020 18:00:00</td>
+              <td>Gasolina Posto Alfa</td>
+              <td>150,00</td>
+              <td><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#modal3">Alterar</button></td>
+              <td><button type="button" class="btn btn-danger btn-sm">Excluir</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
       <!-- modal categorias navegaçao-->
     <div class="modal fade" id="modalCategorias" tabindex="-1" role="dialog" aria-labelledby="modalCategoriasLabel" aria-hidden="true">
       <div class="modal-dialog" role="document">
